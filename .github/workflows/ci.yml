@@ -1,0 +1,25 @@
+# Check what the package would ship, on every push and pull request.
+#
+# This repository is a one-way export of the stylesheet package from the
+# OpenMarkdown monorepo (see README.md); the stylesheets are generated there,
+# and the same checks run there before each export.
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Package contents
+        run: npm pack --dry-run

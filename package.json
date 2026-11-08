@@ -1,0 +1,41 @@
+{
+  "name": "@openmarkdown-dev/css",
+  "version": "0.1.0",
+  "description": "The stylesheet for Markdown rendered as HTML, generated from the OpenMarkdown editor's design tokens: light, dark, or following the reader's system.",
+  "license": "MIT",
+  "style": "openmarkdown.css",
+  "exports": {
+    ".": "./openmarkdown.css",
+    "./light": "./openmarkdown-light.css",
+    "./dark": "./openmarkdown-dark.css",
+    "./openmarkdown.css": "./openmarkdown.css",
+    "./openmarkdown-light.css": "./openmarkdown-light.css",
+    "./openmarkdown-dark.css": "./openmarkdown-dark.css",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "openmarkdown.css",
+    "openmarkdown-light.css",
+    "openmarkdown-dark.css"
+  ],
+  "sideEffects": [
+    "*.css"
+  ],
+  "keywords": [
+    "markdown",
+    "css",
+    "stylesheet",
+    "markdown-css",
+    "typography",
+    "dark-mode",
+    "gfm"
+  ],
+  "homepage": "https://github.com/OpenMarkdown-dev/OpenMarkdown-css#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpenMarkdown-dev/OpenMarkdown-css.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OpenMarkdown-dev/OpenMarkdown-css/issues"
+  }
+}
