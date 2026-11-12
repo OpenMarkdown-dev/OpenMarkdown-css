@@ -1,6 +1,6 @@
 {
   "name": "@openmarkdown-dev/css",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "The stylesheet for Markdown rendered as HTML, generated from the OpenMarkdown editor's design tokens: light, dark, or following the reader's system.",
   "license": "MIT",
   "style": "openmarkdown.css",
