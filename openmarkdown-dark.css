@@ -177,7 +177,10 @@
 }
 .om-doc th, .om-doc td {
   border: 1px solid var(--ome-border);
+  box-sizing: border-box;
   padding: 0.3em 0.75em;
+  min-width: 3ch;
+  height: calc(1lh + 0.6em);
   text-align: left;
 }
 .om-doc th {
