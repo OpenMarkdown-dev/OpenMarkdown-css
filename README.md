@@ -44,7 +44,7 @@ Properties table), `om-agent` (an `@agent` mention) and `om-image-missing`.
 
 ## Theming
 
-Every colour, font and corner is a `--ome-*` custom property, declared on `.om-doc`. To
+Every colour, font, size and corner is a `--ome-*` custom property, declared on `.om-doc`. To
 change one, set it on `.om-doc` in a stylesheet loaded after this one:
 
 ```css
